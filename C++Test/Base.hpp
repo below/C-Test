@@ -15,7 +15,7 @@ namespace foo
             virtual ~Base() throw ()
             {
             }
-//            virtual void doThings(int a, int b);
+            virtual void doThings(int a, int b);
         };
     }
 }
