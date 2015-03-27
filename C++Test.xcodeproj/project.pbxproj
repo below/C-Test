@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		CB4FB3361AC55C6B0017E996 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CB4FB3351AC55C6B0017E996 /* main.m */; };
+		CB4FB3361AC55C6B0017E996 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB4FB3351AC55C6B0017E996 /* main.mm */; };
+		CB4FB33F1AC55CB70017E996 /* Implementation.mm in Sources */ = {isa = PBXBuildFile; fileRef = CB4FB33D1AC55CB70017E996 /* Implementation.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,7 +25,10 @@
 
 /* Begin PBXFileReference section */
 		CB4FB3321AC55C6B0017E996 /* C++Test */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "C++Test"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB4FB3351AC55C6B0017E996 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CB4FB3351AC55C6B0017E996 /* main.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		CB4FB33C1AC55CB70017E996 /* Base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Base.hpp; sourceTree = "<group>"; };
+		CB4FB33D1AC55CB70017E996 /* Implementation.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Implementation.mm; sourceTree = "<group>"; };
+		CB4FB33E1AC55CB70017E996 /* Implementation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Implementation.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,7 +61,10 @@
 		CB4FB3341AC55C6B0017E996 /* C++Test */ = {
 			isa = PBXGroup;
 			children = (
-				CB4FB3351AC55C6B0017E996 /* main.m */,
+				CB4FB3351AC55C6B0017E996 /* main.mm */,
+				CB4FB33C1AC55CB70017E996 /* Base.hpp */,
+				CB4FB33D1AC55CB70017E996 /* Implementation.mm */,
+				CB4FB33E1AC55CB70017E996 /* Implementation.h */,
 			);
 			path = "C++Test";
 			sourceTree = "<group>";
@@ -118,7 +125,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CB4FB3361AC55C6B0017E996 /* main.m in Sources */,
+				CB4FB3361AC55C6B0017E996 /* main.mm in Sources */,
+				CB4FB33F1AC55CB70017E996 /* Implementation.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -232,6 +240,7 @@
 				CB4FB33B1AC55C6B0017E996 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

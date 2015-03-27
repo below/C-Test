@@ -7,11 +7,14 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "Implementation.h"
 
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
+        bar::main::Implementation * imp = new bar::main::Implementation;
+        
         // insert code here...
-        NSLog(@"Hello, World!");
+        NSLog(@"Hello, World! %lx", (unsigned long)imp);
     }
     return 0;
 }
